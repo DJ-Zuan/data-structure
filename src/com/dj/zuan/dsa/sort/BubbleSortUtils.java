@@ -73,7 +73,7 @@ public class BubbleSortUtils {
     }
 
     /**
-     * 清华大学 《数据结构（C++语言版）》 第5页源码及注释改版
+     * 清华大学 《数据结构（C++语言版）》 第5页 源码及注释改版
      *
      * @param a
      * @param n
