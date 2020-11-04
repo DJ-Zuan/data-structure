@@ -25,7 +25,7 @@
  *
  */
 
-package com.dj.zuan.dsa.array.operation.sort;
+package com.dj.zuan.dsa.vector.utils.sort;
 
 import com.dj.zuan.dsa.print.Print;
 

@@ -33,6 +33,7 @@ import java.util.Random;
 
 import static com.dj.zuan.dsa.vector.utils.search.SearchUtils.binSearch;
 import static com.dj.zuan.dsa.vector.utils.search.SearchUtils.fibSearch;
+import static com.dj.zuan.dsa.vector.utils.sort.MergeSortUtils.mergeSort;
 
 /**
  * 清华大学 《数据结构（C++语言版）》 第30页 源码及注释改版
@@ -179,7 +180,7 @@ public class BasicIntVector implements IntVector {
 
     @Override
     public void sort() {
-        //to do
+        mergeSort(elem, 0, size);
     }
 
     @Override
